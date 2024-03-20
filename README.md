@@ -72,14 +72,14 @@
   - They can be edited and tested independently, then the changes auto-update throughout the program(s)
 
 - **AO2:**
- - Sub-procedure character Movement can be used throughout different levels – saves having to rewrite the code for moving the character
- - Can import sub-procedures e.g. graphics, to save writing these. More likely to be error free as tested
+  - Sub-procedure character Movement can be used throughout different levels – saves having to rewrite the code for moving the character
+  - Can import sub-procedures e.g. graphics, to save writing these. More likely to be error free as tested
 
 - **AO3:**
-  - Will save time (not having to rewrite/test code)
-  - Can update one module and it will change all programs that use it – don’t have to change every place the code is written, avoids accidentally missing one
-  - Can test independently
-  - Can use code other people have written, to save time writing and testing
+   - Will save time (not having to rewrite/test code)
+   - Can update one module and it will change all programs that use it – don’t have to change every place the code is written, avoids accidentally missing one
+   - Can test independently
+   - Can use code other people have written, to save time writing and testing
  
 ## Programming constructs:
 
@@ -176,6 +176,14 @@
 - Then needs to follow back down in order
 - Formal, documented stages
 
+**Extrme programming:**
+  - Software mythadolgy
+  - Focous on realy good quality code
+  - Agile model - rapid incrment cycles
+  - Quite flexiable. Allows development to change accroding to user requirments
+  - Itrative process
+  - Invloves paired programmign
+  
 **Rapid application:**
 - Use of prototypes
 - No formal analysis, design stages
@@ -190,6 +198,12 @@
 - Candidates will need to consider a variety of viewpoints in relation to testing strategies and will make evaluative comments about the issues and solutions they are discussing
   - The benefits of a method
   - The disadvantages of a method
+ 
+  **Waterfall:**
+   - Its not flexiable and limtis change in requirments
+ 
+  **Extrme programming:**
+   - High costs  
 
 
 **Inputs:**

@@ -1,7 +1,5 @@
 # Paper 2
 
-# CS MS Answers
-
 ## Abstraction – Computational thinking:
 
 - **What has happened:**

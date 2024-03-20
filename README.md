@@ -60,6 +60,8 @@
 ## Function:
 
 - *Example for add item:*
+- ![image](https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/6fae4837-ac1d-4893-8b22-208c9e56ff8b)
+
 
 ## Reusable components:
 
@@ -69,8 +71,18 @@
   - Write these as independent modules 
   - They can be imported into other areas of the game 
   - They can be imported into future games that are made 
-  - They can be edited and tested independently, then the changes auto-update throughout the program(s) 
+  - They can be edited and tested independently, then the changes auto-update throughout the program(s)
 
+- **AO2:**
+ - Sub-procedure character Movement can be used throughout different levels – saves having to rewrite the code for moving the character
+ - Can import sub-procedures e.g. graphics, to save writing these. More likely to be error free as tested
+
+- **AO3:**
+  - Will save time (not having to rewrite/test code)
+  - Can update one module and it will change all programs that use it – don’t have to change every place the code is written, avoids accidentally missing one
+  - Can test independently
+  - Can use code other people have written, to save time writing and testing
+ 
 ## Programming constructs:
 
 - **Sequence:**
@@ -89,8 +101,15 @@
   - Blackbox Use to test the functionality without knowledge of the inner workings 
   - Whitebox Test the algorithms to ensure they do what they were designed to. Does not test functionality 
   - Alpha Internal testing by the programmers before showing to end-user
-  - Beta Testing by a third party/end users to ensure it meets requirements and is functional. Helps test usability. 
+  - Beta Testing by a third party/end users to ensure it meets requirements and is functional. Helps test usability.
 
+- **AO2:**
+  - Discussion of how each strategy would be used in the program
+  - She should use alpha testing during the creation to check the processes she is creating.
+  - She should use black box testing to make sure the program produces the expected outputs i.e. entering the height, width and depth of a room and it producing these exact dimensions
+  - She should use white box testing to make sure the algorithms work, e.g. entering the dimensions of a piece of furniture and then an algorithm calculating if it will fit
+  - She should use acceptance testing by showing the software to the end user and walking them through the use of the software to prove it meets all the requirements
+  
 ## Bubble sorts:
 
 - **Knowledge and Understanding:**

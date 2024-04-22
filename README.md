@@ -33,6 +33,9 @@ CIR if the operation is a Jump
 – Contains the address of the data (to be
 accessed in memory)…
   - …address of data sent from CIR
+  - Stores the memory location of the
+data to be fetched/ stores the memory
+location 50 [1]
 
 - **Memory Data Register (MDR)**
   - Contains the instruction which has been
@@ -42,6 +45,33 @@ accessed from memory
   - That is referenced by the MAR /
 Instruction sent to CIR
   - acts as a buffer
+  - Stores the data from memory
+location specified by MAR / Stores the
+data from memory location 50 [1]
+
+- **Address Bus:**
+  - Transfers the memory location to
+access the data (to be fetched)/
+transfers the memory location 50 [1]
+
+- **Data Bus:**
+   - Transfers the data from the memory
+location specified by MAR / Transfers
+the data from the memory location 50       
+
+- **fast clock speed:**
+    - Gives more cycles per second
+    - More instructions can be executed per second
+    - So the program takes less time to run 
+
+- **large cache memory:**
+    - More space for data / instructions in
+cache memory
+    - RAM needs to be accessed less
+frequently
+     - Accessing cache is quicker than
+accessing the RAM (1 per -, Max 2)
+ 
 
 - **Describe two ways in which the accumulator is used.**
   - Temporary storage
@@ -74,6 +104,85 @@ Control)
     - Mention of Interrupt Register
     - ALU performs calculations
 
+- **Describe the role of the control unit in the processor.**
+    - Decodes instructions. [1]
+    - Sends control signals to coordinate
+movement of data through the
+processor / execute instruction. [1]
+     - Controls buses [1]
+
+- **Discuss what measures can be taken to improve Dan’s computer’s performance.**
+    - Methods of improving performance
+        - Replace CPU with faster CPU
+        - Add more/Faster RAM
+        - Add a graphics card
+        - Upgrade to faster secondary storage
+        - Update OS
+        - Install a lighter weight OS
+        - Defragment the hard disk
+        - Check for viruses and spyware
+    - The selected knowledge/examples should
+be directly related to the specific question.
+The example below is not prescriptive or
+exhaustive:
+        - A newer CPU may have a faster clock
+speed and so execute more
+instructions per second. It may have
+multiple cores and so be able to
+execute several programs
+simultaneously (or one in parallel).
+It may have more cache meaning
+comparatively slower RAM can be
+accessed less frequently.
+        - More RAM means more programs can
+be open simultaneously without the
+need to use much slower virtual
+memory.
+        - Adding a graphics card will speed up
+the rendering of 3D graphics as GPU
+has specialist instructions and can
+apply the same instruction to multiple
+pieces of data simultaneously.
+        - The slower the secondary storage the
+longer it takes to load
+files/program/data. A faster secondary
+storage device can improve this. May
+choose to use flash memory (i.e. SSD)
+        - OS makers often release updates and
+some of these will improve
+performance.
+        - Some lighter weight operating systems
+use fewer system resources allowing
+the system to devote more to running
+the user’s applications.
+        - A fragmented HDD runs slowly as time
+is spent finding parts of the files. This is
+reduced by defragmenting and storing
+the parts of the file contiguously.
+- Malware can slow down a computer.
+Removing it will improve performance
+    - Evaluation
+         - The following is indicative of possible
+evaluation points that candidates may refer
+to but is not prescriptive or exhaustive:
+        - Hardware improvements (i.e. CPU, RAM,
+secondary storage and GPU) have costs
+attached but likely to have most impact.
+        - The higher performance the hardware,
+the more cost incurred.
+        - (NB candidates aren't expected to know
+relative costs of components.)
+        - GPU unlikely to benefit student in this
+scenario (unless their course requires
+graphics processing). 
+        - Defragmenting HDD is free and so should
+be performed.
+        - Running anti-malware programs is free/low
+cost and should be done as a precaution
+against losing data anyway.
+        - Moving to lighter weight software can
+potentially be free if the user considers
+open source software.
 
 
 # Paper 2

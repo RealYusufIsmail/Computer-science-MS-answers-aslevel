@@ -1,3 +1,81 @@
+# Paper 1
+
+## Characteristics of Contemporary Processors
+
+### Structure and Function of the Processor
+
+- **Name and describe three buses used to convey information between the special registers.**
+    - Control bus…
+…transmits control signals from the
+control unit (to other parts of the
+processor)
+  - Data bus…
+…carries the data (from one place to
+another)
+  - Address bus…
+…carries the location address
+(register) where the data is going (to or
+from)
+
+- **Program Counter (PC):**
+  - Is needed to store the address of the next
+instruction (to be processed)
+  - Value is then sent to the MAR
+  - After sending the value the PC is
+incremented / changed to address held in
+CIR if the operation is a Jump
+
+
+- **Memory Address Register (MAR)**
+  - Contains the address of the instruction
+(to be accessed in memory)…
+  - …address of instruction sent from PC
+– Contains the address of the data (to be
+accessed in memory)…
+  - …address of data sent from CIR
+
+- **Memory Data Register (MDR)**
+  - Contains the instruction which has been
+accessed from memory
+  - Contains the data which has been
+accessed from memory
+  - That is referenced by the MAR /
+Instruction sent to CIR
+  - acts as a buffer
+
+- **Describe two ways in which the accumulator is used.**
+  - Temporary storage
+for data being processed / during
+calculations
+  - I/O in processor…
+  - … used as a buffer / gateway
+
+- **Describe the use of special registers and their functions during the fetch-decode-execute cycle, including jump
+instructions, reading from and writing to memory.**
+  - Registers
+    - Mentions CIR MDR MAR PC and
+ACC
+    - Jump instruction CIR sends
+address to PC
+    - PC incremented
+    - MDR copies data to CIR
+    - CIR holds the data to be decoded..
+…into opcode and operand
+  - Saving
+    - CIR sends address to MAR..
+…sends data to MDR
+    - All data to be saved uses the ACC
+  - Other relevant points
+    - All arithmetic and logical operations
+use the ACC
+    - Mention of buses (Address Data or
+Control)
+    - Control unit for synchronisation
+    - Mention of Interrupt Register
+    - ALU performs calculations
+
+
+
 # Paper 2
 
 ## Abstraction – Computational thinking:

@@ -159,9 +159,9 @@ the user’s applications.
 is spent finding parts of the files. This is
 reduced by defragmenting and storing
 the parts of the file contiguously.
-- Malware can slow down a computer.
+    - Malware can slow down a computer.
 Removing it will improve performance
-    - Evaluation
+      - Evaluation
          - The following is indicative of possible
 evaluation points that candidates may refer
 to but is not prescriptive or exhaustive:

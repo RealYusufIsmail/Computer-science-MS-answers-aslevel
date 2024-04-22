@@ -185,6 +185,59 @@ potentially be free if the user considers
 open source software.
 
 
+### Types of Processor
+
+- **CISC (Complex):**
+    - Each instruction may take multiple cycles
+Single register set
+    - Instructions have variable format
+    - Many instructions are available
+    - Many addressing modes are available
+    - Complicated processor design
+    - Integrated circuit is expensive
+    - CISC many address modes
+    - CISC may have more registers
+    - CISC
+takes many cycles to complete one
+instruction
+
+
+- **RISC (Not-Complex):**
+    - An instruction performs a simple task
+    - Limited number of instructions available
+    - Complex tasks can only be performed by
+combining multiple instructions
+    - Simple processor design
+    - Programs run faster…
+…due to simpler instructions
+    - RISC requires more RAM
+    - RISC takes one machine cycle
+    - RISC fixed number of bytes
+
+- **Von Neumann:**
+    - instructions are executed in a linear sequence
+    - Single control unit
+    - One instruction at a time
+    - Uses fetch execute cycle
+    - Program & data stored together /
+program & data in same format 
+
+- **fetch-decode-execut**
+    - **fetch**
+        - The next instruction is fetched
+from main memory/address
+    - **decode**
+        -  The instruction is interpreted /
+translated / split into opcode and
+operand (in the CIR)
+    - **execut**
+        - The appropriate
+instruction/opcode is carried out on the
+operand. 
+
+
+### Input, Output and Storage
+
 # Paper 2
 
 ## Abstraction – Computational thinking:

@@ -420,5 +420,12 @@ to run
     - Most people have web browsers so by far most compatible option (don't even need VM).
     - The slow speed may be frustrating… …though as no user interaction is needed this may be a trade off worth making. Source code is visible (though can be obfuscated) meaning it can easily be copied and amended.
 
-### Software Development
+## Programming Languages
 
+- **Little Man Computer**
+    - <img width="458" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/9adb074e-a708-4749-ae85-b3e35e97beab">
+        - It outputs 3
+    - SUB - Subtract
+    - result is held at the accumulator
+    - BRP - The program flow jumps to a (designated) label / another point in the program
+        - If the value in the accumulator is positive. 

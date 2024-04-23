@@ -301,7 +301,69 @@ photographs / relevant documentation
            - Must be available when computer switched on ( therefore must be stored on medium which is non–volatile)
            - The boot program / BIOS must not be deleted / unintentionally amended (and therefore is best stored on a read–only medium.)
 
+## Software and Software Development
 
+### Systems Software
+
+- **real-time**
+    - The system gives a response within a
+guaranteed time frame 
+    - response is immediate
+    - no delay in response
+
+- **FIFO**
+    - Once a job starts it prevents other jobs
+from being processed
+    - A job using a slow resource (eg printer)
+wastes processor time 
+
+- **other scheduling methods.**
+    - Round robin
+    - Time slice to each user in turn
+    - Length of job
+    - Shortest job first 
+
+- **scheduling**
+    - Process as many jobs as possible…
+…in least possible time / quicker
+Ensure all jobs are processed (fairly)
+Maximise number of interactive users…
+…with fast response times / real time
+Efficient use of resources / processor time    
+
+- **memory management**
+    - Organise the use of (main) memory… …by converting logical addresses to physical addresses
+    - Allows programs to share memory / allocate memory… …& protect programs / data from each other
+    - Allows programs larger than main memory
+to run
+
+- **paging**
+    - Partitioning memory
+    - Pages are fixed size
+    - Pages are physical divisions
+    - Used for virtual memory
+    - Parts of a program divided into equal size pieces
+    - Use virtual memory / backing store to swap parts of programs
+    - Allows programs to be stored in memory noncontiguously
+
+- **segmentation**
+    - Parts of a program divided into unequal sizes
+    - Uses logical divisions
+    - Use virtual memory / backing store to swap parts of programs
+    - Allows programs to be stored in memory noncontiguously
+
+- **CPU interrupt.**
+    - Complete the current FDE Cycle
+    - Check the priority of the incoming interrupt.
+    - If its of a higher priority than the current task.
+    - Contents of registers stored in memory..
+    - … in a stack.
+    - The relevant interrupt service routine is loaded …
+    - ..by loading the relevant value into the program counter.
+    - When the ISR is complete the previous state is popped from the stack
+    - And are loaded back into the registers.
+ 
+### Applications Generation
 
 # Paper 2
 

@@ -368,3 +368,57 @@ to run
     - And are loaded back into the registers.
  
 ### Applications Generation
+
+- **utility**
+    - performs a specific task (1) and is usually related to the upkeep of the system
+    - Examples of a utility include a virus checker (1) / disk defragmenter (1).
+
+- **assembler**
+    - convert code into machine code.
+
+- **File handlers**
+    - Manages data storage / organises data storage
+    - Used for the deletion / sorting / moving / copying / creation of files / folders
+    - Manage the storage of software
+    - Manage the storage of stock files
+    - To access files 
+
+- **Hardware drivers**
+    - Enable peripheral and OS to communicate
+    - To configure hardware
+    - e.g. would be used to install a new keyboard; mouse; printer (accept any examples sensible within context)
+
+- **Backup utility**
+    - Automatically makes a copy of files
+    - Storing them in a different location / medium
+    - To make Incremental back–ups
+    - Ensure that sales / stock data is backed up
+
+- **open source software**
+    - Source code is freely available
+    - for others to amend / examine / recompile 
+
+- **Java**
+    - One version needs be written and can be used on any device / OS combination that has the Java Virtual Machine rather than having to write multiple versions.
+    - Code running on a VM tends to be slower than compiled.
+    - Multiple devices can include devices other than PCs (i.e. phones, tablets)
+    - People with unusual operating systems or architectures would have access to the application.
+    - It makes commercial sense to sell to as wide an audience as possible.
+    - The speed reduction compared to compiled code will likely be noticeable with such a processor intensive task. As running on a VM coders will have limited (if any) access to some of the low level features (e.g. access to the GPU) which can optimise the program.
+
+- **C++**
+    - Multiple versions of the code will need to be maintained for different architectures… …however there may be minimal differences between them, and then just need compiling with different compilers.
+    - Program will run quicker than alternatives.
+    - Some less used architectures may not be developed for as not commercially viable.
+    - Compiled code will run quicker than the other options. This is likely to be noticeable given the nature of the task.
+    - Easier to get access to lower level features (such as GPU access).
+    - Compiled code is not human readable helping to preserve intellectual property
+
+- **JavaScript**
+    - As interpreted likely to be by far the slowest option.
+    - Will run in any browser.
+    - Most people have web browsers so by far most compatible option (don't even need VM).
+    - The slow speed may be frustrating… …though as no user interaction is needed this may be a trade off worth making. Source code is visible (though can be obfuscated) meaning it can easily be copied and amended.
+
+### Software Development
+

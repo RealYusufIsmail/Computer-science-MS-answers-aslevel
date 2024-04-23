@@ -238,6 +238,71 @@ operand.
 
 ### Input, Output and Storage
 
+- **Magnetic hard drives**
+    - work by magnetic
+patterns being read off platters that
+mechanically spin at high speeds.
+    - can be noisy (due
+to parts moving at high speed), this can be
+undesirable and distracting whilst gaming.
+Conversely flash drives operate silently.
+    - Due to their high storage capacity
+magnetic hard disks are the best choice. A
+gamer could have many games installed at
+one time.
+    - require enough
+space for their moving parts 
+    - magnetic hard drives can be
+susceptible to damage if moved quickly
+(1 – AO3.3) due to the head coming
+into contact with the platter
+
+- **Flash hard drives**
+    - use memory chips.
+These can have their contents erased and
+subsequently overwritten when an
+electrical charge is applied.
+    - tend to have much
+higher read / write speeds than magnetic
+hard disks.
+    - have no moving parts
+and therefore tend to have lower power
+consumption and are not affected by their
+device moving.
+    - Whilst performance is not quite
+that of flash drives, to have a similarly
+sized flash drive would be prohibitively
+expensive.
+    - flash memory has no moving
+parts and so is not affected
+
+- **output device**
+    - A printer -  to print (hard copies) of
+photographs / relevant documentation
+    - A monitor - which may be of a larger size / higher quality than that on her laptop making editing easier. 
+
+- **RAM**
+    -  Is volatile
+    -  Is editable
+    -  Is larger
+    -  The contents of RAM are wiped
+    -  Stores User files / software / OS currently in use
+        - User must be able to alter contents of file / computer needs access to software but needs to be able to replace it
+        - RAM offers direct access.
+        - RAM operates at a much faster speed than most secondary storage devices.
+
+ - **ROM**
+     - is not volatile
+     - cannot be altered
+     - is smaller
+     - cannot be altered so there is no chance of the OS being accidentally or maliciously changed (on what is a safety critical system)
+     - is quick to start up so the system can be started up quickly (in an emergency) (1).
+     - Stores Boot file / program / BIOS
+           - Must be available when computer switched on ( therefore must be stored on medium which is non–volatile)
+           - The boot program / BIOS must not be deleted / unintentionally amended (and therefore is best stored on a read–only medium.)
+
+
+
 # Paper 2
 
 ## Abstraction – Computational thinking:

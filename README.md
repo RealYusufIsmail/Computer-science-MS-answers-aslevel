@@ -1,3 +1,5 @@
+# This readme cotains both paper 1 and paper 2. See there respective readmes for that paper.
+
 # Paper 1
 
 ## Characteristics of Contemporary Processors

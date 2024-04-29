@@ -47,6 +47,12 @@
 - **Global variables make it difficult to integrate modules, they increase the complexity of a program:**
   - They may cause conflicts with names written by others/in other modules, and they may be changed inadvertently when the program is complex.
 - **Local variables help to make each function reusable.**
+- **A global variable used where a value needs to be
+accessible from various parts of a program (1 – AO1.2), it is
+the same value (1 – AO1.2).
+Irrespective of the place where it is accessed (1 – AO1.2).
+Any sensible example of a value that will reasonably need
+to be the same, e.g. today’s date, VAT rate, pi (1 – AO2.1)**
 
 ## ByVal and ByRef:
 

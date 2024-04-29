@@ -436,3 +436,39 @@ to run
 
 - **primary key**
     - A field that has a unique value / a unique identifier (1) for every record in hat table (1)
+- **secondary key**
+    - A secondary key is indexed allowing for faster searching
+- **flat file**
+    - Data might be inconsistent…(A01.1) … For example the amount of LP-7XB toner cartridges might be reduced in one record but not in other records. (A02.2)
+    - Space is wasted through redundant data… (A01.1)
+    - … For example the Re-order URL for each toner cartridge is stored multiple times. (A02.2)
+
+### Networks
+
+- **TCP/IP**
+    - Stands for “Transmission Control
+Protocol / Internet Protocol”… (1)
+    - Protocol(s)/set of rules… (1)
+    - …for communicating across a network / the internet. (1)
+    - Each protocol belongs to a different layer. (1)
+    - The layers are: Application, Transport, Internet, Link (1)
+    - (Starting at the Application layer) data is further encapsulated as it as it is passed to the next layer. (1) 
+
+- **peer to peer network**
+    - Devices on the network have equal status/no (central) server.
+    - Devices on the network share data 
+
+- **LAN**
+    - A LAN covers a small geographical area (e.g. a building or campus). [1]
+    - A LAN uses connections owned by the organisation that owns it. [1]
+    - More secure than a WAN [1]
+
+- **WAN**
+    - A WAN covers a large geographical area.[1]
+    - A WAN often uses third party connections.[1]
+    - Less secure than a LAN [1] 
+
+ - **Logical protocol**
+     - A set of rules… [1]  …that define the communication of data [1]
+     - focusing on how data is represented [1]
+     - appropriate e.g. character set / baud rate [1]

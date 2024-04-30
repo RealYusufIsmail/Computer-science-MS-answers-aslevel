@@ -348,7 +348,7 @@ to run
     - Used for virtual memory
     - Parts of a program divided into equal size pieces
     - Use virtual memory / backing store to swap parts of programs
-    - Allows programs to be stored in memory noncontiguously
+    - Allows programs to be stored in memory contiguously
 
 - **segmentation**
     - Parts of a program divided into unequal sizes

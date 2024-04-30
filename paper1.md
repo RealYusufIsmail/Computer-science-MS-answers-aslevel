@@ -354,7 +354,7 @@ to run
     - Parts of a program divided into unequal sizes
     - Uses logical divisions
     - Use virtual memory / backing store to swap parts of programs
-    - Allows programs to be stored in memory contiguously
+    - Programs can be stored non-contiguosly, though they work better contiguously
 
 - **CPU interrupt.**
     - Complete the current FDE Cycle

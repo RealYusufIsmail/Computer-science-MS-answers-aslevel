@@ -350,13 +350,13 @@ to run
     - Used for virtual memory
     - Parts of a program divided into equal size pieces
     - Use virtual memory / backing store to swap parts of programs
-    - Allows programs to be stored in memory noncontiguously
+    - Allows programs to be stored in memory contiguously
 
 - **segmentation**
     - Parts of a program divided into unequal sizes
     - Uses logical divisions
     - Use virtual memory / backing store to swap parts of programs
-    - Allows programs to be stored in memory noncontiguously
+    - Allows programs to be stored in memory contiguously
 
 - **CPU interrupt.**
     - Complete the current FDE Cycle
@@ -370,6 +370,110 @@ to run
     - And are loaded back into the registers.
  
 ### Applications Generation
+
+- **utility**
+    - performs a specific task (1) and is usually related to the upkeep of the system
+    - Examples of a utility include a virus checker (1) / disk defragmenter (1).
+
+- **assembler**
+    - convert code into machine code.
+
+- **File handlers**
+    - Manages data storage / organises data storage
+    - Used for the deletion / sorting / moving / copying / creation of files / folders
+    - Manage the storage of software
+    - Manage the storage of stock files
+    - To access files 
+
+- **Hardware drivers**
+    - Enable peripheral and OS to communicate
+    - To configure hardware
+    - e.g. would be used to install a new keyboard; mouse; printer (accept any examples sensible within context)
+
+- **Backup utility**
+    - Automatically makes a copy of files
+    - Storing them in a different location / medium
+    - To make Incremental back–ups
+    - Ensure that sales / stock data is backed up
+
+- **open source software**
+    - Source code is freely available
+    - for others to amend / examine / recompile 
+
+- **Java**
+    - One version needs be written and can be used on any device / OS combination that has the Java Virtual Machine rather than having to write multiple versions.
+    - Code running on a VM tends to be slower than compiled.
+    - Multiple devices can include devices other than PCs (i.e. phones, tablets)
+    - People with unusual operating systems or architectures would have access to the application.
+    - It makes commercial sense to sell to as wide an audience as possible.
+    - The speed reduction compared to compiled code will likely be noticeable with such a processor intensive task. As running on a VM coders will have limited (if any) access to some of the low level features (e.g. access to the GPU) which can optimise the program.
+
+- **C++**
+    - Multiple versions of the code will need to be maintained for different architectures… …however there may be minimal differences between them, and then just need compiling with different compilers.
+    - Program will run quicker than alternatives.
+    - Some less used architectures may not be developed for as not commercially viable.
+    - Compiled code will run quicker than the other options. This is likely to be noticeable given the nature of the task.
+    - Easier to get access to lower level features (such as GPU access).
+    - Compiled code is not human readable helping to preserve intellectual property
+
+- **JavaScript**
+    - As interpreted likely to be by far the slowest option.
+    - Will run in any browser.
+    - Most people have web browsers so by far most compatible option (don't even need VM).
+    - The slow speed may be frustrating… …though as no user interaction is needed this may be a trade off worth making. Source code is visible (though can be obfuscated) meaning it can easily be copied and amended.
+
+### Programming Languages
+
+- **Little Man Computer**
+    - <img width="458" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/9adb074e-a708-4749-ae85-b3e35e97beab">
+        - It outputs 3
+    - SUB - Subtract
+    - result is held at the accumulator
+    - BRP - The program flow jumps to a (designated) label / another point in the program
+        - If the value in the accumulator is positive. 
+
+## Exchanging Data 
+
+### Databases
+
+- **primary key**
+    - A field that has a unique value / a unique identifier (1) for every record in hat table (1)
+- **secondary key**
+    - A secondary key is indexed allowing for faster searching
+- **flat file**
+    - Data might be inconsistent…(A01.1) … For example the amount of LP-7XB toner cartridges might be reduced in one record but not in other records. (A02.2)
+    - Space is wasted through redundant data… (A01.1)
+    - … For example the Re-order URL for each toner cartridge is stored multiple times. (A02.2)
+
+### Networks
+
+- **TCP/IP**
+    - Stands for “Transmission Control
+Protocol / Internet Protocol”… (1)
+    - Protocol(s)/set of rules… (1)
+    - …for communicating across a network / the internet. (1)
+    - Each protocol belongs to a different layer. (1)
+    - The layers are: Application, Transport, Internet, Link (1)
+    - (Starting at the Application layer) data is further encapsulated as it as it is passed to the next layer. (1) 
+
+- **peer to peer network**
+    - Devices on the network have equal status/no (central) server.
+    - Devices on the network share data 
+
+- **LAN**
+    - A LAN covers a small geographical area (e.g. a building or campus). [1]
+    - A LAN uses connections owned by the organisation that owns it. [1]
+    - More secure than a WAN [1]
+
+- **WAN**
+    - A WAN covers a large geographical area.[1]
+    - A WAN often uses third party connections.[1]
+    - Less secure than a LAN [1] 
+
+ - **Logical protocol**
+     - A set of rules… [1]  …that define the communication of data [1]
+     - focusing on how data is represented [1]
+     - appropriate e.g. character set / baud rate [1]
 
 # Paper 2
 

@@ -1,4 +1,4 @@
-# This readme can not and is not allowed to be redstrubuted for any means without the owners approval or by inserting the license in the content used.
+<img width="506" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/d7db6279-d31c-4c53-bd28-065701a4f217"># This readme can not and is not allowed to be redstrubuted for any means without the owners approval or by inserting the license in the content used.
 
 # If this is found to be breached then action will be taken.
 
@@ -537,9 +537,21 @@ processors (and GPUs).
 - **secondary key**
     - A secondary key is indexed allowing for faster searching
 - **flat file**
-    - Data might be inconsistent…(A01.1) … For example the amount of LP-7XB toner cartridges might be reduced in one record but not in other records. (A02.2)
-    - Space is wasted through redundant data… (A01.1)
-    - … For example the Re-order URL for each toner cartridge is stored multiple times. (A02.2)
+    -  A flat file is a database that consists of a single file
+- **entity-relationship**
+    - three tables
+
+<img width="194" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/8b6209a1-aac1-4fa3-9d7b-3115a6e2f999">
+
+- **double entry**
+    - Data inputed twice
+    - The two input are compared by computer to make sure thay are correct
+
+- **validation check**
+    -  Range check
+    -  Length check
+    -  Type check / character check
+    -  Format check / input mask
 
 ### Networks
 
@@ -553,7 +565,14 @@ processors (and GPUs).
 
 - **peer to peer network**
     - Devices on the network have equal status/no (central) server.
-    - Devices on the network share data 
+    - Devices on the network share data
+    - <img width="572" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/9918cddd-5144-4ed4-bdc6-009ac6ba15b9">
+
+- **Client-server**
+    - Client-server networks consist of terminals known as clients connected to a server
+    - The server is a powerful, central computer.
+    - The server holds all of the important information and resources and has greater processing power than the terminals.
+    - <img width="506" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/c55e0b9c-5c6c-4fd4-9284-40df6a95cf9d">
 
 - **LAN**
     - A LAN covers a small geographical area (e.g. a building or campus). [1]
@@ -573,3 +592,33 @@ processors (and GPUs).
 - **Protocol**
     - A set of rules for communication between two devices.
     - Example include HTTP/S, TCP/IP, and FTP.
+
+- **high bit rate**
+    - determines the quality of a connection
+        - Video streaming requires a large amount of data…
+        - …In a short period of time [1]
+        - Video streaming is time sensitive [1]
+        - Or else there are interruptions in the video [1]
+     
+- **Ip handle**
+    - (Customers enter) domain name and this is sent to DNS servers.
+    - DNS servers map this domain to an IP address
+    - If the DNS server can't resolve, it passes the request (recursively) to another DNS server.
+    - DNS Server sends the IP address to browser
+    -  so it can retrieve the website from server on which it is hosted.
+
+### Paper 1 programming examples 
+
+- **Html**
+
+<img width="398" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/e5ab13b8-b357-441d-b323-755f4600fed6">
+
+<img width="196" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/2799576a-a341-41ca-b58a-f0eb85c97ef9">
+
+- **Css**
+  
+<img width="357" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/c2f2d49b-8b04-4f11-8817-06ea0e44da3d">
+
+
+
+

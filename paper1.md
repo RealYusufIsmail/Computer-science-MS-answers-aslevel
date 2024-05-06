@@ -1,4 +1,4 @@
-<img width="506" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/d7db6279-d31c-4c53-bd28-065701a4f217"># This readme can not and is not allowed to be redstrubuted for any means without the owners approval or by inserting the license in the content used.
+# This readme can not and is not allowed to be redstrubuted for any means without the owners approval or by inserting the license in the content used.
 
 # If this is found to be breached then action will be taken.
 
@@ -619,6 +619,11 @@ processors (and GPUs).
   
 <img width="357" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/c2f2d49b-8b04-4f11-8817-06ea0e44da3d">
 
-
+```css
+#warning {
+    color: red;
+    font-family: monospace;
+}
+```
 
 

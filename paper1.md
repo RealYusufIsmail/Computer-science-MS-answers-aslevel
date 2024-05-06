@@ -22,46 +22,33 @@ another)
 from)
 
 - **Program Counter (PC):**
-  - Is needed to store the address of the next
-instruction (to be processed)
+  - Is needed to store the address of the next instruction (to be processed)
   - Value is then sent to the MAR
-  - After sending the value the PC is
-incremented / changed to address held in
-CIR if the operation is a Jump
+  - After sending the value the PC is incremented / changed to address held in CIR if the operation is a Jump
+  - The location of the next instruction (to be fetched).
 
 
 - **Memory Address Register (MAR)**
-  - Contains the address of the instruction
-(to be accessed in memory)…
+  - Contains the address of the instruction (to be accessed in memory)…
   - …address of instruction sent from PC
-– Contains the address of the data (to be
-accessed in memory)…
-  - …address of data sent from CIR
+– Contains the address of the data (to be accessed in memory)… …address of data sent from CIR
   - Stores the memory location of the
 data to be fetched/ stores the memory
 location 50 [1]
 
 - **Memory Data Register (MDR)**
-  - Contains the instruction which has been
-accessed from memory
-  - Contains the data which has been
-accessed from memory
-  - That is referenced by the MAR /
-Instruction sent to CIR
+  - Contains the instruction which has been accessed from memory
+  - Contains the data which has been accessed from memory
+  - That is referenced by the MAR / Instruction sent to CIR
   - acts as a buffer
-  - Stores the data from memory
-location specified by MAR / Stores the
-data from memory location 50 [1]
+  - Stores the data from memory location specified by MAR / Stores the data 
+from memory location 50 [1]
 
 - **Address Bus:**
-  - Transfers the memory location to
-access the data (to be fetched)/
-transfers the memory location 50 [1]
+  - Transfers the memory location to access the data (to be fetched)/ transfers the memory location 50 [1]
 
 - **Data Bus:**
-   - Transfers the data from the memory
-location specified by MAR / Transfers
-the data from the memory location 50       
+   - Transfers the data from the memory location specified by MAR / Transfers the data from the memory location 50       
 
 - **fast clock speed:**
     - Gives more cycles per second
@@ -69,23 +56,17 @@ the data from the memory location 50
     - So the program takes less time to run 
 
 - **large cache memory:**
-    - More space for data / instructions in
-cache memory
-    - RAM needs to be accessed less
-frequently
-     - Accessing cache is quicker than
-accessing the RAM (1 per -, Max 2)
+    - More space for data / instructions in cache memory
+    - RAM needs to be accessed less frequently
+    - Accessing cache is quicker than accessing the RAM (1 per -, Max 2)
  
 
 - **Describe two ways in which the accumulator is used.**
-  - Temporary storage
-for data being processed / during
-calculations
+  - Temporary storage for data being processed / during calculations
   - I/O in processor…
   - … used as a buffer / gateway
 
-- **Describe the use of special registers and their functions during the fetch-decode-execute cycle, including jump
-instructions, reading from and writing to memory.**
+- **Describe the use of special registers and their functions during the fetch decode-execute cycle, including jump instructions, reading from and writing to memory.**
   - Registers
     - Mentions CIR MDR MAR PC and
 ACC
@@ -205,26 +186,36 @@ Single register set
 takes many cycles to complete one
 instruction
 
-
 - **RISC (Not-Complex):**
     - An instruction performs a simple task
     - Limited number of instructions available
     - Complex tasks can only be performed by
 combining multiple instructions
     - Simple processor design
-    - Programs run faster…
-…due to simpler instructions
+    - Programs run faster… …due to simpler instructions
     - RISC requires more RAM
     - RISC takes one machine cycle
     - RISC fixed number of bytes
+    - Requires less cooling to be built in.
 
 - **Von Neumann:**
     - instructions are executed in a linear sequence
     - Single control unit
     - One instruction at a time
     - Uses fetch execute cycle
-    - Program & data stored together /
-program & data in same format 
+    - Single ALU
+    - Data and Instructions stored in the same memory / format(1)
+    - Program & data stored together / program & data in same format
+    - A register is a small piece of memory used for storing data within the processor
+
+- **Harvard architecture**
+    - processors benefit from having separate data and instruction memories.
+ 
+<img width="524" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/9ad7a5ac-b04d-4e10-b978-0b0997171c9e">
+
+<img width="533" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/f561e5f1-291d-425d-bcf0-e61e4a33db70">
+
+
 
 - **fetch-decode-execut**
     - **fetch**
@@ -261,6 +252,12 @@ susceptible to damage if moved quickly
 (1 – AO3.3) due to the head coming
 into contact with the platter
 
+- **cloud storage**
+    - Potentially vulnerable to
+hacking.
+    - Reliant on an internet connection/requires a fast enough internet connection.
+    - Reliant on company servers.
+
 - **Flash hard drives**
     - use memory chips.
 These can have their contents erased and
@@ -295,15 +292,51 @@ photographs / relevant documentation
         - RAM offers direct access.
         - RAM operates at a much faster speed than most secondary storage devices.
 
- - **ROM**
-     - is not volatile
-     - cannot be altered
-     - is smaller
-     - cannot be altered so there is no chance of the OS being accidentally or maliciously changed (on what is a safety critical system)
-     - is quick to start up so the system can be started up quickly (in an emergency) (1).
-     - Stores Boot file / program / BIOS
-           - Must be available when computer switched on ( therefore must be stored on medium which is non–volatile)
-           - The boot program / BIOS must not be deleted / unintentionally amended (and therefore is best stored on a read–only medium.)
+- **ROM**
+    - is not volatile
+    - cannot be altered
+    - is smaller
+    - cannot be altered so there is no chance of the OS being accidentally or maliciously changed (on what is a safety critical system)
+    - is quick to start up so the system can be started up quickly (in an emergency) (1).
+    - Stores Boot file / program / BIOS
+    - Must be available when computer switched on ( therefore must be stored on medium which is non–volatile)
+    - The boot program / BIOS must not be deleted / unintentionally amended (and therefore is best stored on a read–only medium.)
+    - The software will not need updating
+
+- **Cache**
+    - Cache memory is temporary storage for frequently accessed data.
+    -  Cache memory is very quick to access because it is closer to the CPU than other types of memory like RAM.
+    -  Level 1 cache is the smallest level (less than a megabyte) but it is also the fastest.
+    -  Level 2 cache is larger than level 1 (up to 8 megabytes) but slightly slower.
+    -  Level 3 cache is located outside of the CPU core which makes it slower than the first two levels but it is much larger (up to 50 megabytes).
+    -  Cache memory is closer to the CPU than RAM, meaning that it can provide data and instructions to the CPU at a faster rate.
+    -  A computer with more cache memory (e.g. 8MB instead of 4MB) should have a higher performance because repeatedly used instructions can be stored and accessed faster.
+    -  Larger level 1 and level 2 cache sizes will improve a computer's performance as data can be accessed extremely quickly.
+    -  Cache memory is costly, so most computers only have a small amount.
+    -  Multiple cache misses will result in data latency (delay) as information is accessed from RAM which is further away from the CPU.
+
+- **Lossless**
+    - Lossless rewrites original data in more efficient format
+    - Lossless is able to recreate the original file
+    - Lossless keeps original quality
+    - Lossless: the video will buffer more / slower to start watching the video
+
+- **Lossy**
+    - Lossy permanently removes data
+    - Lossy is not able to recreate the original file
+    - Lossy reduces quality of videos
+    - Lossy file size is smaller than if lossless were used
+    - Lossy: compression ratio may be adjusted depending on bandwidth
+    - Resulting in a noticeable decrease in quality on slower connections.
+    - Lossy: the video will buffer less / quicker to start watching the video
+ 
+- **questionair**
+     - Format that OMR can detect (e.g. lozenges).
+     - Primarily use closed questions / multiple choice. [1]
+     - Consistent format for answers (e.g. if 1 is not agree at all and 5 is agree entirely not switching round) [1]
+     - Logical ordering of questions. [1]
+     - Sensible use of space
+     - Storing documents being / waiting to be printed.
 
 ## Software and Software Development
 
@@ -366,6 +399,14 @@ to run
     - ..by loading the relevant value into the program counter.
     - When the ISR is complete the previous state is popped from the stack
     - And are loaded back into the registers.
+
+- **Supercomputer**
+    - The CPUs can work in parallel
+    - … on the same problem
+  - try multiple keys simultaneously…
+    - …to break the code
+    - Super computers can have multiple
+processors (and GPUs).
  
 ### Applications Generation
 
@@ -428,7 +469,10 @@ to run
     - SUB - Subtract
     - result is held at the accumulator
     - BRP - The program flow jumps to a (designated) label / another point in the program
-        - If the value in the accumulator is positive. 
+  - If the value in the accumulator is positive.
+  - BRZ, BRP, BRA - change contents in program counter
+  - STA copys the content of the accumaltor when emmory is excuted.
+
 
 ## Exchanging Data 
 

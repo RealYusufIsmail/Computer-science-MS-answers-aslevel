@@ -169,7 +169,6 @@ against losing data anyway.
 potentially be free if the user considers
 open source software.
 
-
 ### Types of Processor
 
 - **CISC (Complex):**
@@ -407,6 +406,57 @@ to run
     - …to break the code
     - Super computers can have multiple
 processors (and GPUs).
+
+- **Operating systems**
+    - Provide a user interface
+    - Provide System Security
+    - Manage hardware
+    - Provide utilities
+    - Provide a platform from which software can be installed/run
+    - Schedule jobs
+    - Handle interrupts
+    - Manage memory
+    - OS is loaded up by the BIOS which carries otu checks prior to the loading.
+
+- **Operating systems utilities**
+    -  Disk Defragmente
+    -  Compression Utility
+    -  Disk Checker
+    -  Virus checker
+    -  File manager
+
+- **Types of Operating System**
+    - Distributed
+        - Run across multiple devices, allowing the load to be spread across multiple computer processors when a task is run.
+        - A system which shares processing (between the processors on a network) / shares the data between different systems (on a network in order to reduce bottlenecks).
+    -Embedded
+        - Built to perform a small range of specific tasks and catered towards a specific device such as a household appliance. They are limited in their functionality and hard to update although they consume significantly less power than other types of OS.
+    - Multi-tasking
+        - Multi-tasking operating systems enable the user to carry out tasks seemingly simultaneously. This is done by using time slicing to switch quickly between programs and applications in memory.
+    - Multi-user
+        - Multiple users make use of one computer. A scheduling algorithm is used to ensure processor time is shared fairly between jobs and prevent processor starvation.
+    - Real Time
+        - Commonly used in time-critical computer systems, a real time OS is designed to perform a task within a guaranteed time frame. Examples of use include the management of control rods at a nuclear power station or within self-driving cars: any situation where a response within a certain time period is crucial to safety.
+
+- **network operating system**
+    -  File handling… …allowing Access to, and manipulation of, files dependent on the identity of the user
+    -  Handling communication… …controls the movement of data around the network (by use of agreed protocol)
+    -  Resource sharing / resource management… …ensure fair allocation of resources / volume of printout allowed / etc
+    - Automatic backup… …so that data is not lost if it is corrupted 
+
+
+- **Virutal Machine**
+    - A virtual machine is a piece of software that behaves in the same way as an actual computer
+    - Allows you to save space, time and cost of setting up multiple OS.
+    - Requires a power computer
+    - Apps will run slower as less ram is provided.
+    - Realistically physical machines will have to be used at some point to be
+100% sure everything works as it should.
+
+- **Device driver**
+    - A program/software
+    - That controls a piece of hardware
+    - Providing an interface/bridge between the device and (operating) system
  
 ### Applications Generation
 
@@ -460,6 +510,10 @@ processors (and GPUs).
     - Will run in any browser.
     - Most people have web browsers so by far most compatible option (don't even need VM).
     - The slow speed may be frustrating… …though as no user interaction is needed this may be a trade off worth making. Source code is visible (though can be obfuscated) meaning it can easily be copied and amended.
+    - A programming language that runs in a web browser
+    -  that can be embedded into HTML
+    -  JavaScript is likely to be run on a variety of machines (1) with different processors / architectures (1).
+    -  Compiled code is machine dependent (1) whereas interpreters run on high level code (1) which is machine independent (1).
 
 ### Programming Languages
 
@@ -490,8 +544,7 @@ processors (and GPUs).
 ### Networks
 
 - **TCP/IP**
-    - Stands for “Transmission Control
-Protocol / Internet Protocol”… (1)
+    - Stands for “Transmission Control Protocol / Internet Protocol”… (1)
     - Protocol(s)/set of rules… (1)
     - …for communicating across a network / the internet. (1)
     - Each protocol belongs to a different layer. (1)
@@ -516,3 +569,7 @@ Protocol / Internet Protocol”… (1)
      - A set of rules… [1]  …that define the communication of data [1]
      - focusing on how data is represented [1]
      - appropriate e.g. character set / baud rate [1]
+       
+- **Protocol**
+    - A set of rules for communication between two devices.
+    - Example include HTTP/S, TCP/IP, and FTP.

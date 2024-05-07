@@ -625,5 +625,65 @@ processors (and GPUs).
     font-family: monospace;
 }
 ```
+### Legal, Moral, Cultural and Ethical Issues
 
+- **Data Protection Act**
+    -  Customer has the right to see the data and to ask for it to be corrected if wrong so that they are not responsible for incorrect data
+    -  Data must be lawfully collected so that customer rights are not flouted
+    -  Data can only be accessed by/changed by authorised people so that malicious alterations are not made
+    - Authorised people must be notified to the DPR so that they are accountable
+    - Data is only used for the specified purpose so that junk mail is not encouraged
+    - Data collected should not be excessive so that irrelevant data is not stored
+    - Data should be accurate and up to date so that customers are not held responsible for goods they have not bought
+    - Data should not be kept longer than necessary so that customers can leave an organisation
+    - Data should be protected by adequate security measures so that people with malicious intent cannot gain access
+    - Data should not be transferred out of the EU so that data remains subject to DPA.
 
+- **Computers impact on wellbeing**
+    -  Computers have reduced the monotony of some jobs….
+    - …Meaning people find their work more challenging and rewarding.
+    - They allow workers to collaborate with colleagues across the world…
+    -  …Meaning people can enjoy sharing ideas.
+    -  They have meant having strong ICT skills a fundamental part of many jobs…
+    -  ..Which can put pressure on people to acquire/keep up to date these skills.
+    -  They have allowed people to work more flexibly including working from home…
+    -  …meaning they can have a better work/life balance…
+    -  but can lead to them feeling isolated.
+    - … and potentially feeling pressured into working outside of normal hours.
+
+- **Computers affect on soceity**
+    - People are becoming more reliant on portable computer systems
+    - Instant access to data
+    - Accessible anywhere (where there is a signal)
+    - Problems for those in society who are technologically unaware
+    - Problem with divided society, the haves and the have nots
+    - Social interaction apps make contacts more plentiful
+    - No difficulty in contacting individuals or groups of individuals
+    - Problems caused by social pressures to conform and use them
+    - Problems caused by online bullying
+    - Loss of traditional means of communication
+
+- **Use of technolgy in homes**
+    - …leading to increased free time...
+        -  Automatic washing, machines/dishwashers/...
+        -  …leading to increased free time...
+        -  …increased leisure time/more family time/...
+        -   …chance to go to work because of time freed up, leading to...
+        -  …increased family wealth 
+    -   Chance to work from home:
+        - More time spent in productive work
+        - Chance to plan work around home life
+        - Because of advances in communication and...
+        -  …and availability of more accessible technology
+    - More recent advances including:
+        -  Intelligent larders which know what food is in them and place automatic orders...
+        -  ...delivered by supermarket and placed in larder from outside
+        -  reduces the need for shopping
+        -  Robotic cleaners...
+        -  ...reducing the need for cleaning by hand
+        -  GPT - homework, etc
+        -   Microwave cookers have simplified the task of cooking together with...
+        -   ...large amounts of processed food available which does not need preparation All have reduced the number of tasks to be done...
+        -   ...the amount of time spent on those tasks which still need to be done
+        -   ...the knowledge needed to complete the tasks
+        -    The amount of socialising has been reduced eg when doing the shopping.

@@ -607,7 +607,7 @@ processors (and GPUs).
     - DNS Server sends the IP address to browser
     -  so it can retrieve the website from server on which it is hosted.
 
-### Paper 1 programming examples 
+### Paper 1 programming 
 
 - **Html**
 
@@ -625,6 +625,55 @@ processors (and GPUs).
     font-family: monospace;
 }
 ```
+- **Procedural programming**
+    - Procedural programming is one of the most widely-used paradigms as it can be applied to a wide range of problems and is relatively easy to write and interpret.
+
+- **Variables and Constants**
+    - Variables are named locations in memory where data is stored. The contents of this location can be changed.
+    - Variables are assigned using the = sign, as shown below:
+    - ```
+      name = Ellen 
+      sides = 3 
+      The = used here is called an assignment operator
+      ```
+    - Constants are also named locations in memory, but the value of a constant cannot be edited by the program during execution.
+    - constant also prevents it from being accidentally changed. When writing code, constants are often capitalised, as shown below:
+    - ```
+        PI = 3.14159
+        VAT = 20
+    ```
+
+- **Global and Local varaible**
+    - Gloabl variable can be accessed anywhere in the program
+    - Local variable can only be accessed in the subroutine 
+
+- **File handling **
+    - ```
+      To open a file to read:
+        myFile = openRead(“filename.txt”) 
+      To read a line from a file:
+        fileContent = myFile.readLine() 
+      To close a file:
+        myFile.close() 
+      To open a file to write:
+        myFile = openWrite(“nameoffile.txt”)
+      To write a line to a file:
+        myFile.writeLine(“Physics and Maths Tutor”)
+      The end of the file is given by:
+          endOfFile()
+  ```
+
+- **Program Flow**
+    -  Sequence     - Code is executed line-by-line, from top to bottom.
+    -  Selection    - A certain block of code is run if a specific condition is met, using IF, ELSE IF and ELSE statements.
+    -  Iteration    - A block of code is executed a certain number of times or while a condition is met. Iteration uses FOR, WHILE or REPEAT UNTIL loops. 
+
+- **Assembly Language**
+    - <img width="531" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/25bf0b9e-dc57-4265-9769-8c063e55cc50">
+    - <img width="526" alt="image" src="https://github.com/RealYusufIsmail/Computer-science-MS-answers-aslevel/assets/67903886/52d78fb1-de5d-4cc9-bcb5-8575cd5e054c">
+
+ 
+
 ### Legal, Moral, Cultural and Ethical Issues
 
 - **Data Protection Act**

@@ -244,3 +244,161 @@ to be the same, e.g. today’s date, VAT rate, pi (1 – AO2.1)**
   - Breaks problems into smaller areas
   - Easier to test/ debug/ read
   - Each subroutine can be tested before integration
+
+code in java:
+
+```java
+class Stack {
+    private int maxSize;
+    private int[] stackArray;
+    private int top;
+
+    public Stack(int size) {
+        maxSize = size;
+        stackArray = new int[maxSize];
+        top = -1;
+    }
+
+    public void push(int value) {
+        if(top < maxSize - 1) {
+            stackArray[++top] = value;
+        }
+    }
+
+    public int pop() {
+        if(top >= 0) {
+            return stackArray[top--];
+        }
+        return -1; // Indicates stack is empty
+    }
+
+    public int peek() {
+        if(top >= 0) {
+            return stackArray[top];
+        }
+        return -1; // Indicates stack is empty
+    }
+
+    public boolean isEmpty() {
+        return top == -1;
+    }
+
+    public boolean isFull() {
+        return top == maxSize - 1;
+    }
+}
+
+
+class Queue {
+    private int maxSize;
+    private int[] queueArray;
+    private int front;
+    private int rear;
+    private int nItems;
+
+    public Queue(int size) {
+        maxSize = size;
+        queueArray = new int[maxSize];
+        front = 0;
+        rear = -1;
+        nItems = 0;
+    }
+
+    public void enqueue(int value) {
+        if(rear == maxSize - 1) {
+            rear = -1;
+        }
+        queueArray[++rear] = value;
+        nItems++;
+    }
+
+    public int dequeue() {
+        int temp = queueArray[front++];
+        if(front == maxSize) {
+            front = 0;
+        }
+        nItems--;
+        return temp;
+    }
+
+    public boolean isEmpty() {
+        return nItems == 0;
+    }
+
+    public boolean isFull() {
+        return nItems == maxSize;
+    }
+
+    public int peekFront() {
+        return queueArray[front];
+    }
+}
+
+public static void bubbleSort(int[] arr) {
+    int n = arr.length;
+    for(int i = 0; i < n - 1; i++) {
+        for(int j = 0; j < n - 1 - i; j++) {
+            if(arr[j] > arr[j + 1]) {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+
+public static void insertionSort(int[] arr) {
+    int n = arr.length;
+    for(int i = 1; i < n; i++) {
+        int key = arr[i];
+        int j = i - 1;
+        while(j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+}
+
+public static int binarySearch(int[] arr, int key) {
+    int left = 0;
+    int right = arr.length - 1;
+    while(left <= right) {
+        int mid = (left + right) / 2;
+        if(arr[mid] == key) {
+            return mid;
+        } else if(arr[mid] < key) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+    return -1; // Key not found
+}
+
+public static int linearSearch(int[] arr, int key) {
+    for(int i = 0; i < arr.length; i++) {
+        if(arr[i] == key) {
+            return i;
+        }
+    }
+    return -1; // Key not found
+}
+
+//function
+public static int factorial(int n) {
+    if(n == 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+//proceudre
+public static void printArray(int[] arr) {
+    for(int i : arr) {
+        System.out.print(i + " ");
+    }
+    System.out.println();
+}
+

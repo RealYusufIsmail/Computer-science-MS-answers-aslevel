@@ -401,4 +401,30 @@ public static void printArray(int[] arr) {
     }
     System.out.println();
 }
+```
 
+File handling
+```python
+# Opening a file to read
+myFile = open("filename.txt", "r")
+
+# Reading a line from a file
+fileContent = myFile.readline()
+
+# Closing a file
+myFile.close()
+
+# Opening a file to write
+myFile = open("nameoffile.txt", "w")
+
+# Writing a line to a file
+myFile.write("Physics and Maths Tutor\n")
+
+# Closing a file after writing
+myFile.close()
+
+# Reading until the end of file using a loop
+with open("filename.txt", "r") as myFile:
+    for line in myFile:
+        print(line, end="")
+```
